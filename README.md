@@ -39,7 +39,7 @@ O objetivo foi aplicar, na prática, conceitos fundamentais de redes, incluindo 
 
 ## 📸 Topologia
 
-![Topologia da rede](topologia/topologia.png)
+![Topologia da rede](topologia/topologia.jpg)
 
 ---
 
