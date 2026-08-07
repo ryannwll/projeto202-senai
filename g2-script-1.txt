@@ -1,0 +1,63 @@
+
+-------------------------------------------------------
+GRUPO 2
+-------------------------------------------------------
+
+enable
+conf t
+hostname G2
+enable secret class
+service password-encryption
+banner motd @
+##################################################################
+ $$$$$$\  $$$$$$$\       $$$$$$$$\ $$\   $$\  $$$$$$\  
+$$  __$$\ $$  __$$\      \__$$  __|$$ |  $$ |$$$ __$$\ 
+\__/  $$ |$$ |  $$ |        $$ |   $$ |  $$ |$$$$\ $$ |
+ $$$$$$  |$$$$$$$  |$$$$$$\ $$ |   $$$$$$$$ |$$\$$\$$ |
+$$  ____/ $$  __$$< \______|$$ |   \_____$$ |$$ \$$$$ |
+$$ |      $$ |  $$ |        $$ |         $$ |$$ |\$$$ |
+$$$$$$$$\ $$ |  $$ |        $$ |         $$ |\$$$$$$  /
+\________|\__|  \__|        \__|         \__| \______/ 
+                                                       
+                       ALVIN NET 24.69                                                      
+################################################################## @
+
+ip domain-name sala213.com
+crypto key generate rsa
+2048
+
+
+ip ssh version 2
+
+ip ssh time-out 60
+ip ssh authentication-retries 2
+
+username morpheus privilege 15 secret matrix
+username neo privilege 1 secret rabbit
+line vty 0 4
+password class
+login
+
+interface Gig0/0
+ip address 10.202.2.1 255.255.255.240
+no shutdown
+
+interface Se1
+encapsulation frame-relay
+no shutdown 
+
+interface Se1.07 point-to-point
+ip address 10.202.4.65 255.255.255.240
+frame-relay interface-dlci 07
+
+interface Se0
+ip address 10.202.2.11 255.255.255.240
+no shutdown 
+
+router eigrp 25999
+network 10.202.4.64
+network 10.202.2.0
+no auto-summary
+end
+wr
+
