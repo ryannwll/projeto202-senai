@@ -37,4 +37,4 @@ Simular uma rede com roteamento dinâmico e acesso remoto seguro.
 
 ## 🔗 Documentação completa
 
-👉 Notion: (link aqui)
+👉 Notion: https://tartan-chicken-a7b.notion.site/Projeto-202-Europa-G2-Di-rio-de-Bordo-fb0f54394c02409c8de5187e5793020a?pvs=74
