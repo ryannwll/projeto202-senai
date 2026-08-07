@@ -39,7 +39,7 @@ O objetivo foi aplicar, na prática, conceitos fundamentais de redes, incluindo 
 
 ## 📸 Topologia
 
-![Topologia da rede](topologia/topologia.jpg)
+![Topologia da rede](projeto202-senai/topologia.jpg)
 
 ---
 
