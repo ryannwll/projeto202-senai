@@ -1,41 +1,48 @@
-# projeto202-senai
+# Laboratório de Redes com EIGRP e SSH
 
-# Laboratório de Redes - EIGRP e SSH
+## 📌 Sobre o projeto
 
-## 🎯 Objetivo
-Simular uma rede com roteamento dinâmico e acesso remoto seguro.
+Este projeto simula uma infraestrutura de rede utilizando roteamento dinâmico (EIGRP) e acesso remoto seguro via SSH.
 
----
-
-## 🧠 Tecnologias e conceitos
-
-- EIGRP
-- Sub-redes
-- SSH
-- Frame Relay
-- Cisco Packet Tracer
-- Tera Term
+O objetivo foi aplicar, na prática, conceitos fundamentais de redes, incluindo segmentação, comunicação entre sub-redes e controle de acesso.
 
 ---
 
-## 🧪 Implementação
+## 🧠 Conceitos aplicados
 
-- Configuração de interfaces LAN e WAN  
-- Implementação do protocolo EIGRP  
-- Criação de usuários com diferentes níveis de acesso  
-- Configuração de acesso remoto via SSH  
+- Roteamento dinâmico com EIGRP  
+- Subnetting (/28)  
+- Configuração de interfaces LAN/WAN  
+- Acesso remoto seguro (SSH)  
 - Criptografia de senhas  
+- Frame Relay (ambiente simulado)  
+
+---
+
+## ⚙️ Implementação
+
+- Configuração completa de roteador Cisco  
+- Criação de usuários com diferentes níveis de privilégio  
+- Configuração de acesso remoto via SSH  
+- Ativação e validação de interfaces  
+- Propagação de rotas com EIGRP  
 
 ---
 
 ## 📊 Resultados
 
-- Comunicação entre redes validada  
+- Comunicação entre redes estabelecida com sucesso  
 - Acesso remoto funcional via SSH  
-- Estrutura de rede segmentada  
+- Estrutura de rede segmentada e organizada  
+
+---
+
+## 📸 Topologia
+
+![Topologia da rede](topologia/topologia.png)
 
 ---
 
 ## 🔗 Documentação completa
 
-👉 Notion: https://tartan-chicken-a7b.notion.site/Projeto-202-Europa-G2-Di-rio-de-Bordo-fb0f54394c02409c8de5187e5793020a?pvs=74
+Notion: [Clique Aqui](https://tartan-chicken-a7b.notion.site/Projeto-202-Europa-G2-Di-rio-de-Bordo-fb0f54394c02409c8de5187e5793020a)
