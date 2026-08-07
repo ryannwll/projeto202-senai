@@ -14,6 +14,7 @@ Simular uma rede com roteamento dinâmico e acesso remoto seguro.
 - SSH
 - Frame Relay
 - Cisco Packet Tracer
+- Tera Term
 
 ---
 
